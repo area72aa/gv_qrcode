@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <script>
+      if(/Android/i.test(navigator.userAgent)){
+        window.location.replace("https://play.google.com/store/apps/details?id=org.aagrapevine.app&pli=1")
+      }else if(/iPhone|iPad|iPod/i.test(navigator.userAgent)){
+        window.location.replace("https://apps.apple.com/us/app/meeting-guide/id1042822181#?platform=iphone")
+      }
+      else{
+        window.location.replace("https://www.aagrapevine.org/apps")
+      }
+  </script>
+
+  </body>
+</html>
